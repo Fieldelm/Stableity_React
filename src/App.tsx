@@ -1,7 +1,8 @@
 import React, { Component, useState, ChangeEvent } from 'react';
-import './style/App.scss';
+//import './style/App.scss';
+import './style/custom.scss';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Navbar from './Components/Navbar';
+import NavigationBar from './Components/Navbar';
 import Home from './Components/pages/Home';
 import Horses from './Components/pages/Horses';
 import Ferrier from './Components/pages/Ferrier';
@@ -79,7 +80,7 @@ const App = () => {
     <div>
       <BrowserRouter>
 
-        <Navbar pages={pages} />
+        <NavigationBar pages={pages} />
 
         <div className='content'>
           <div className='content__flag-container'>

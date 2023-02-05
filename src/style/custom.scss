@@ -1,0 +1,42 @@
+@import '__colors.scss';
+@import '__base.scss';
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+$flagImageHeight : 1rem;
+$content-padding : 0.5rem;
+$page-content-padding : $flagImageHeight + $content-padding;
+
+.content {
+    text-align: center;
+    margin-top: $content-padding;
+    color: black;
+    position: relative;
+    gap: 2 rem;
+  
+  
+    &__flag-container{
+      display:inline-flex;
+      justify-content: space-between;
+      gap: 0.5rem;
+      float: right;
+       margin-right: $flagImageHeight;
+        
+    
+      img{
+        height: $flagImageHeight;
+    
+       &:hover{
+        opacity: 30%;
+       }
+      }
+    }
+  
+    &__page {
+      padding: $page-content-padding;
+    }
+  }
+  
+  
