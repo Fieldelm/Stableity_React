@@ -66,11 +66,6 @@ const App = () => {
       name: t('Signin'),
       route: '/register',
       element: <Register />
-    },
-    {
-      name: t('Login'),
-      route: '/login',
-      element: <Login />
     }
   ]
 
