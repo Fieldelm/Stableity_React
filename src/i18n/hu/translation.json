@@ -1,5 +1,6 @@
 {
     "Ferrier": "Patkolás",
+    "Good" : "Jó",
     "Home": "Főoldal",
     "Horse": "Ló",
     "horse": "ló",
@@ -9,6 +10,7 @@
     "password" : "jelszó",
     "Owners": "Tulajdonosok",
     "Register": "Regisztráció",
+    "Signin" : "Belépés",
     "Vet": "Állatorvos",
     "welcome_msg": "Stabelity, rendet tart a lovardában"
 }

@@ -63,7 +63,7 @@ const App = () => {
       element: <Owners />
     },
     {
-      name: t('Register'),
+      name: t('Signin'),
       route: '/register',
       element: <Register />
     },
