@@ -1,14 +1,16 @@
 {
     "Ferrier": "Ferrier",
+    "Good" : "Good",
     "Home": "Home",
     "Horse": "Horse",
     "horse": "horse",
-    "Horses": "Horses",
+    "Horses": "bugyi",
     "horses": "horses",
     "Login" : "Login",
     "Owners": "Owners",
     "password" : "password", 
     "Register": "Register",
-    "Vet": "Veterinary",
+    "Signin" : "Sign in",
+       "Vet": "Veterinary",
     "welcome_msg": "Stableity keeps your stable organized"
 }
