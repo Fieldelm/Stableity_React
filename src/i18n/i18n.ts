@@ -28,7 +28,8 @@ i18next
     detection: {
       order: ['cookie','htmlTag', 'path' ],
       caches: ['cookie']
-    }
+    },
+    debug: true
 });
 
 export default i18next;
